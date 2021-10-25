@@ -1,0 +1,23 @@
+package while_atividade;
+
+import javax.swing.JOptionPane;
+
+//Faça um algoritmo onde o usuário deverá digitar uma série de números inteiros maiores que zero,
+//usando cartão bandeira.
+
+public class Atv15 {
+	public static void main(String[] args) {
+
+		String acao = "1 - Adicionar mais números -SIM \n"
+				+ "-------------------------------------\n"
+				+ "2 - Cancelar -NÃO \n";
+		
+		char confirma = 'S';
+		
+		while (confirma == 'S') {
+		//	int n = Integer.parseInt (JOptionPane.showInputDialog ("Informe n:"));	
+			
+			confirma = JOptionPane.showInputDialog(acao).toUpperCase().charAt(0);
+		}
+	}
+}

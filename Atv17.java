@@ -1,5 +1,4 @@
-package while_atividade;
-
+package While_ativiade1;
 import javax.swing.JOptionPane;
 
 //Faça um algoritmo/programa que leia uma relação de N alunos (Utilize cartão bandeira), cada um
@@ -49,5 +48,3 @@ public class Atv17 {
 				+ "\n Reprovado: " + reprov);
 	}
 }
-
-

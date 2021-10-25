@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 
@@ -13,9 +13,10 @@ public class Atv15 {
 				+ "2 - Cancelar -NÃO \n";
 		
 		char confirma = 'S';
+		//int n = 0;
 		
 		while (confirma == 'S') {
-		//	int n = Integer.parseInt (JOptionPane.showInputDialog ("Informe n:"));	
+			//n = Integer.parseInt (JOptionPane.showInputDialog ("Informe n:"));	
 			
 			confirma = JOptionPane.showInputDialog(acao).toUpperCase().charAt(0);
 		}

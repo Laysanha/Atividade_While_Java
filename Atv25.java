@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 //Faça um algoritmo/programa que leia uma quantidade N de palavras, após cada leitura escreva o
 //tamanho da mesma

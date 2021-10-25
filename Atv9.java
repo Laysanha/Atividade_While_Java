@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 
@@ -9,44 +9,45 @@ import javax.swing.JOptionPane;
 //c) Quantidade de alunos reprovados (média para reprovação: < 2.0).
 //d) Quantidade de alunos em recuperação.
 
-
 public class Atv9 {
 	
-	public static void main (String [] args) {
-	
-		String acao = "1 - Adicionar mais números -SIM \n"
-				  + "2 - Cancelar -NÃO \n";
-		
+	public static void main(String[] args) {
+
+		String acao = "1 - Adicionar mais números -SIM \n" + "2 - Cancelar -NÃO \n";
+
 		int nota1, nota2, nota3, media = 0;
-		int aprov = 0; int reprov = 0; int recup = 0;
+		int aprov = 0;
+		int reprov = 0;
+		int recup = 0;
 		int i = 0;
 		char confirma = 'S';
-		
-		while(confirma == 'S') {
-			
+
+		while (confirma == 'S') {
+
 			String nome = JOptionPane.showInputDialog("Informe o nome do aluno(a): ");
-			
+
 			i++;
-			
-			nota1 = Integer.parseInt (JOptionPane.showInputDialog ("Informe nota" + i + ":"));
-			nota2 = Integer.parseInt (JOptionPane.showInputDialog ("Informe nota" + i + ":"));
-			nota3 = Integer.parseInt (JOptionPane.showInputDialog ("Informe nota" + i + ":"));
-			
+
+			nota1 = Integer.parseInt(JOptionPane.showInputDialog("Informe nota" + i + ":"));
+			nota2 = Integer.parseInt(JOptionPane.showInputDialog("Informe nota" + i + ":"));
+			nota3 = Integer.parseInt(JOptionPane.showInputDialog("Informe nota" + i + ":"));
+
 			media = (nota1 + nota2 + nota3) / 3;
-			
-			JOptionPane.showMessageDialog(null, "Aluno(a):" + nome + "\n Média:" + media);	
-			
+
+			JOptionPane.showMessageDialog(null, "Aluno(a):" + nome + "\n Média:" + media);
+
 			if (media >= 7) {
 				aprov++;
-			} else if (media < 2 ) {
+			} else if (media < 2) {
 				reprov++;
 			} else {
 				recup++;
 			}
-			
+
 			confirma = JOptionPane.showInputDialog(acao).toUpperCase().charAt(0);
 		}
-		JOptionPane.showMessageDialog(null, "Aprovados:" + aprov + "\n Recuperação: " + recup + "\n Reprovado:" + reprov);
+		JOptionPane.showMessageDialog(null,
+				"Aprovados:" + aprov + "\n Recuperação: " + recup + "\n Reprovado:" + reprov);
 	}
-	
+
 }

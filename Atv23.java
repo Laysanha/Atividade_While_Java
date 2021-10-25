@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 
@@ -9,9 +9,9 @@ import javax.swing.JOptionPane;
 public class Atv23 {
 	public static void main(String[] args) {
 		
-		String dia = "12";
-		String mes = "03";
-		String ano = "10";
+		String dia = JOptionPane.showInputDialog("Dia: ");
+		String mes = JOptionPane.showInputDialog("Mês: ");
+		String ano = JOptionPane.showInputDialog("Ano: ");
 		
 		String data = dia + "/" + mes + "/" + ano;
 		

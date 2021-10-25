@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 
@@ -9,11 +9,9 @@ import javax.swing.JOptionPane;
 //de 30%;
 //c) Os funcionários com salário superior a 3.000,00 devem ter um reajuste de 20%.
 
-
 public class Atv10 {
 	
-	public static void main (String [] args) {
-		
+	public static void main (String [] args) {	
 		String acao = "1 - Continuar ajustando -SIM \n"
 				  	+ "2 - Cancelar -NÃO \n";
 		
@@ -29,7 +27,7 @@ public class Atv10 {
 				reajuste = (salario / 100) * 40;
 			} else if (salario >= 1000 || salario < 3000) {
 				reajuste = (salario / 100) * 30;
-			} if (salario >= 3000) {
+			} else if (salario >= 3000) {
 				reajuste = (salario / 100) * 20;
 			}
 			
@@ -38,4 +36,5 @@ public class Atv10 {
 			confirma = JOptionPane.showInputDialog(acao).toUpperCase().charAt(0);
 		}	
 	}
+	
 }

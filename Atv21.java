@@ -1,5 +1,4 @@
-package while_atividade;
-
+package While_ativiade1;
 //Em um banco existem (N) caixas. Cada caixa atende uma quantidade indefinida de clientes (usar cartão
 //bandeira para os clientes). Cada cliente faz apenas uma única operação: depósitos(D), ou retiradas(R).
 //Faça um algoritmo para ler: Nome do cliente, tipo da operação (D/R) e valor da operação, onde esta
@@ -8,5 +7,5 @@ package while_atividade;
 
 
 public class Atv21 {
-	//Já foi feito achai aí Laysa
+	//Já foi feito acha aí Laysa
 }

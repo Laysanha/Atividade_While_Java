@@ -1,4 +1,4 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 

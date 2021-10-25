@@ -1,16 +1,16 @@
-package while_atividade;
+package While_ativiade1;
 
 import javax.swing.JOptionPane;
 
-// Escreva um algoritmo/programa para calcular o reajuste salarial de uma empresa que possui vários
-// funcionários, cada um possuindo 
-// nome e salário (Utilize cartão bandeira), de acordo com os seguintes
-// critérios:
+//Escreva um algoritmo/programa para calcular o reajuste salarial de uma empresa que possui vários
+//funcionários, cada um possuindo 
+//nome e salário (Utilize cartão bandeira), de acordo com os seguintes
+//critérios:
 
-// • Os funcionários com salário inferior a 1.000,00 devem ter um reajuste de 40%;
-// • Os funcionários com salário entre 1.000,00 (inclusive) e 3.000,00 (inclusive) devem ter um
-// reajuste de 30%;
-// • Os funcionários com salário superior a 3.000,00 devem ter um reajuste de 20%.
+//• Os funcionários com salário inferior a 1.000,00 devem ter um reajuste de 40%;
+//• Os funcionários com salário entre 1.000,00 (inclusive) e 3.000,00 (inclusive) devem ter um
+//reajuste de 30%;
+//• Os funcionários com salário superior a 3.000,00 devem ter um reajuste de 20%.
 
 public class Atv18 {
 	
